@@ -1,26 +1,26 @@
-#Windows 10 Reparatur
+# Windows 10 Reparatur
 
-##Für wen ist der Guide?
+## Für wen ist der Guide?
 
 - Windows Updates lassen sich nicht installieren.
 - Manche Windows-Komponenten funktionieren nicht wie sie sollen.
 - Allgemeine Probleme mit Windows.
 - Du wurdest hierher geschickt.
 
-##Was muss ich tun?
+## Was muss ich tun?
 
-###Schon neugestartet?
+###  Schon neugestartet?
 Nein wirklich, ein Neustart löst oft einige Probleme.
 
-###Backup?
+### Backup?
 Heute schon gesichert? Stellt bitte *vorher* sicher, dass eure Daten gesichert sind. Dieser Guide sollte natürlich keinen Datenverlust verursachen, dennoch lässt es sich nie ausschließen.
 
-###CMD
+### CMD
 *Was ist die CMD?* Die CMD oder auch Eingabeaufforderung ist das Terminal von Windows. 
 
 *Wie rufe ich die CMD auf?* Klickt auf das Startmenü und gebt dort entweder "Eingabeaufforderung" oder "cmd" ein. Falls hier im Guide erwähnt wird, dass ihr es als Administrator ausführen sollt, klickt mit rechts auf das Suchergebnis und wählt "Als Administrator ausführen" aus. Wenn ihr alles richtig gemacht habt, erscheint ein schwarzes Fenster mit dem Titel "Eingabeaufforderung" oder "Administrator Eingabeaufforderung".
 
-###Reparatur mit DISM
+### Reparatur mit DISM
 Daten gesichert? Dann geht's los.
 - Öffnet eine Eingabeaufforderung als Administrator.
 - `DISM /Online /Cleanup-Image /RestoreHealth` eingeben und mit Enter bestätigen.
@@ -31,7 +31,7 @@ Daten gesichert? Dann geht's los.
 - [Nachdem die Prüfung und Reparatur abgeschlossen ist](https://i.imgur.com/gPdJAgf.png), führt bitte einen Neustart durch.
 - Prüft im Anschluss, ob euer Problem behoben wurde.
 
-###Reparatur mit SFC
+### Reparatur mit SFC
 Daten gesichert? Dann geht's los.
 - Öffnet eine Eingabeaufforderung als Administrator.
 - `sfc /scannow` eingeben und mit Enter bestätigen.
@@ -40,7 +40,7 @@ Daten gesichert? Dann geht's los.
 - [Nachdem die Prüfung und Reparatur abgeschlossen ist](https://i.imgur.com/zTAsGZv.png), führt bitte einen Neustart durch.
 - Prüft im Anschluss, ob euer Problem behoben wurde.
 
-###Windows mit Bordmitteln wiederherstellen
+### Windows mit Bordmitteln wiederherstellen
 Daten gesichert? Dann geht's los.
 
 - Öffnet die Windows Einstellungen.
@@ -50,12 +50,12 @@ Daten gesichert? Dann geht's los.
 - Ihr könnt nun auswählen, ob ihr eure Dateien und Programm behalten wollt oder ob ihr Windows komplett zurücksetzen wollt.
 - **Achtung:** Der letzte Punkt löscht eure Daten! Stellt sicher, dass ihr ein Backup habt! Der erste Punkt *sollte* eure Daten nicht löschen, stellt trotzdem sicher, dass ihr ein Backup habt.
 
-###Windows mit der ISO wiederherstellen
+### Windows mit der ISO wiederherstellen
 Daten gesichert? Dann geht's los.
 
 - Einen umfangreichen Guide findet ihr [hier.](https://www.microsoft.com/de-de/software-download/windows10)
 
-###Was, wenn alles nichts hilft?
+### Was, wenn alles nichts hilft?
 
 > Aber /u/efflicto, ich habe alles getan und mein Problem besteht weiterhin!
 
