@@ -22,6 +22,7 @@ Heute schon gesichert? Stellt bitte *vorher* sicher, dass eure Daten gesichert s
 
 ### Reparatur mit DISM
 Daten gesichert? Dann geht's los.
+
 - Öffnet eine Eingabeaufforderung als Administrator.
 - `DISM /Online /Cleanup-Image /RestoreHealth` eingeben und mit Enter bestätigen.
 - Für diesen Befehl wird eine Internetverbindung benötigt.
@@ -33,6 +34,7 @@ Daten gesichert? Dann geht's los.
 
 ### Reparatur mit SFC
 Daten gesichert? Dann geht's los.
+
 - Öffnet eine Eingabeaufforderung als Administrator.
 - `sfc /scannow` eingeben und mit Enter bestätigen.
 - Windows prüft nun eure Installation auf Fehler und versucht diese zu reparieren.
